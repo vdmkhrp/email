@@ -3,8 +3,27 @@ import { resolve } from "path";
 import fs from "fs";
 import { dirname } from "path";
 import { createHtmlPlugin } from "vite-plugin-html";
+import chokidar from 'chokidar';
+import { exec } from 'child_process';
 
 const __dirname = dirname(new URL(import.meta.url).pathname);
+
+// Функция для компиляции MJML в HTML
+const compileMJML = () => {
+  exec('npx mjml index.mjml -o index.html', (err, stdout, stderr) => {
+    if (err) {
+      console.error(`Ошибка при компиляции MJML: ${stderr}`);
+    } else {
+      console.log(`MJML скомпилирован успешно: ${stdout}`);
+    }
+  });
+};
+
+// Отслеживание изменений в файле MJML
+chokidar.watch('index.mjml').on('change', (path) => {
+  console.log(`${path} изменён. Компиляция MJML...`);
+  compileMJML();
+});
 
 const getHtmlInputs = () => {
   const files = fs
