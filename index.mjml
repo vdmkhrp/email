@@ -1,0 +1,142 @@
+<mjml>
+  <mj-head>
+    <mj-title>DUNDER MIFFLIN</mj-title>
+    <mj-preview>Получите скидку 20% на все товары!</mj-preview>
+  </mj-head>
+
+  <mj-body background-color="#C7C7C7">
+
+    <!-- head-wrapper section -->
+    <mj-wrapper background-color="#1B54DD" padding="0 20px">
+
+      <!-- logo section -->
+      <mj-section padding="32px 0">
+        <mj-column>
+          <mj-image src="https://i.ibb.co/m0VKvZG/logo.png" width="100px" alt="DUNDER MIFFLIN" padding="0" />
+        </mj-column>
+      </mj-section>
+
+      <!-- title section -->
+      <mj-section padding="0 0 32px 0">
+        <mj-column>
+          <mj-text padding="0" align="center">
+            <h1 style="Margin:0;font-size:36px;color:#ffffff;font-weight:700">I&nbsp;am Beyonc&eacute; always.</h1>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- image section -->
+      <mj-section padding="0 0 32px 0">
+        <mj-column>
+          <mj-image src="https://i.ibb.co/5BVyZ7D/01.jpg" width="480px" alt="team" padding="0" />
+        </mj-column>
+      </mj-section>
+
+      <!-- text section -->
+      <mj-section padding="0">
+        <mj-column width="480px">
+          <mj-text align="center" padding="0 0 32px 0">
+            <h2 style="Margin:0; font-size:24px; font-weight:700; color:#ffffff;">Fact: Bears eat beets. Bears. Beets. Battlestar Galactica.</h2>
+          </mj-text>
+          <mj-text align="center" padding="0 0 32px 0">
+            <p style="Margin:0; font-size:14px;color:#ffffff;">In&nbsp;the wild, there is&nbsp;no&nbsp;healthcare. In&nbsp;the wild healthcare&nbsp;is, &lsquo;Ow, I&nbsp;hurt my&nbsp;leg. I&nbsp;can&rsquo;t run. A&nbsp;lion eats&nbsp;me, and I&rsquo;m dead.&rsquo; Well, I&rsquo;m not dead. I&rsquo;m the lion. You&rsquo;re dead.</p>
+          </mj-text>
+          <mj-button align="center" background-color="#ffffff" href="https://vdmkhrp.github.io/" color="#1A2028" padding="0 0 32px 0" inner-padding="12px 24px" font-size="14px" font-weight="600">CTA Text</mj-button>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+    <!-- cards-wrapper section -->
+    <mj-wrapper background-color="#ffffff" padding="0 4px">
+
+      <!-- card section -->
+      <mj-section padding="32px 0px">
+        <mj-column padding="0px 16px" vertical-align="middle" width="272px">
+          <mj-image src="https://i.ibb.co/Km827jP/02.jpg" width="240px" fluid-on-mobile="true" alt="photo" padding="0" />
+        </mj-column>
+        <mj-column padding="0px 16px" vertical-align="middle" width="272px">
+          <mj-text align="left" padding="16px 0 16px 0">
+            <h2 style="Margin:0; font-size:24px; font-weight:700; color:#262626;">I&nbsp;live by&nbsp;one rule.</h2>
+          </mj-text>
+          <mj-text align="left" padding="0 0 16px 0">
+            <p style="Margin:0; font-size:14px;color:#262626;">No&nbsp;office romances, no&nbsp;way. Very messy, inappropriate... no. But, I&nbsp;live by&nbsp;another rule: Just do&nbsp;it... Nike.</p>
+          </mj-text>
+          <mj-button align="left" href="#!" inner-padding="0" background-color="transparent" color="#1B54DD" padding="0 0 16px 0">Link out here &gt;</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- card section -->
+      <mj-section padding="0 0 32px 0">
+        <mj-column padding="0px 16px" vertical-align="middle" width="272px">
+          <mj-image src="https://i.ibb.co/chy5c2M/03.jpg" width="240px" fluid-on-mobile="true" alt="photo" padding="0" />
+        </mj-column>
+        <mj-column padding="0px 16px" vertical-align="middle" width="272px">
+          <mj-text align="left" padding="16px 0 16px 0">
+            <h2 style="Margin:0; font-size:24px; font-weight:700; color:#262626;">I&nbsp;work hard all day.</h2>
+          </mj-text>
+          <mj-text align="left" padding="0 0 16px 0">
+            <p style="Margin:0; font-size:14px;color:#262626;">I&nbsp;like knowing that there&rsquo;s going to&nbsp;be&nbsp;a&nbsp;break. Most days&nbsp;I just sit and wait for the break.</p>
+          </mj-text>
+          <mj-button align="left" href="#!" inner-padding="0" background-color="transparent" color="#1B54DD" padding="0 0 16px 0">Link out here &gt;</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- card section -->
+      <mj-section padding="0 0 32px 0">
+        <mj-column padding="0px 16px" vertical-align="middle" width="272px">
+          <mj-image src="https://i.ibb.co/z55LCfd/04.jpg" width="240px" fluid-on-mobile="true" alt="photo" padding="0" />
+        </mj-column>
+        <mj-column padding="0px 16px" vertical-align="middle" width="272px">
+          <mj-text align="left" padding="16px 0 16px 0">
+            <h2 style="Margin:0; font-size:24px; font-weight:700; color:#262626;">I&nbsp;am fast.</h2>
+          </mj-text>
+          <mj-text align="left" padding="0 0 16px 0">
+            <p style="Margin:0; font-size:14px;color:#262626;">To&nbsp;give you a&nbsp;reference point. I&rsquo;m somewhere between a&nbsp;snake and a&nbsp;mongoose. And a&nbsp;panther.</p>
+          </mj-text>
+          <mj-button align="left" href="#!" inner-padding="0" background-color="transparent" color="#1B54DD" padding="0 0 16px 0">Link out here &gt;</mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- button CTA-->
+      <mj-section padding="0 0 32px 0">
+        <mj-column padding="0">
+          <mj-button align="center" background-color="#1B54DD" href="https://vdmkhrp.github.io/" color="#ffffff" padding="0" inner-padding="12px 24px" font-size="14px" font-weight="600">CTA Text</mj-button>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+    <!-- footer-wrapper section-->
+    <mj-wrapper background-color="#E8E8E8" padding="0 20px">
+
+      <!-- social section-->
+      <mj-section padding="26px 0 16px 0">
+        <mj-column>
+          <mj-social padding="0" icon-size="20px" mode="horizontal">
+            <mj-social-element src="https://i.ibb.co/JyF0Db1/twitter.png" alt="twitter" href="#!" padding="0 16px">
+            </mj-social-element>
+            <mj-social-element src="https://i.ibb.co/DCq2xRC/facebook.png" alt="facebook" href="#!" padding="0 16px">
+            </mj-social-element>
+            <mj-social-element src="https://i.ibb.co/dBsw9V2/instagram.png" alt="instagram" href="#!" padding="0 16px">
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+
+      <!-- text section-->
+      <mj-section padding="0">
+        <mj-column>
+          <mj-button align="center" background-color="transparent" href="https://dundermifflinpaper.com" color="#141A26" padding="0 0 8px 0" inner-padding="0" font-size="14px" font-weight="400">dundermifflinpaper.com</mj-button>
+          <mj-text align="center" font-size="10px" padding="0 0 16px 0" color="#262626" line-height="1.6">
+            <p style="Margin:0;">1725 Slough Avenue #200, Scranton, PA, 18540</p>
+            <p style="Margin:0;">© 2020 Bonnie Kate Wolf</p>
+          </mj-text>
+          <mj-image src="https://i.ibb.co/41rmHB3/logo-footer.png" width="40px" height="22px" alt="DMI logo" padding="0 0 26px 0" />
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
